@@ -43,6 +43,9 @@
                                     <segment title="Pause"/>
                                     <segment title="Clear"/>
                                 </segments>
+                                <connections>
+                                    <action selector="valueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="sJU-kg-rZC"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
